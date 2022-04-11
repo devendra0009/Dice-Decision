@@ -1,0 +1,38 @@
+*{
+    margin: 0; padding: 0;
+    background-color: aqua;
+}
+#winner{
+    background-color: blueviolet;
+    text-align: center;
+    height: 100px;
+    font-size: 80px;
+}
+#dice{
+    display: flex;
+    justify-content: space-evenly;
+}
+#dice img{
+    width: 200px;
+    height: 200px;
+}
+#dice p{
+    font-size: 40px;
+    margin-top: 20px;
+}
+#btn{
+    background-color: rgb(77, 240, 91);
+    border: 3px solid black;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    font-size: large;
+    left: 47vw;
+}
+#btn:hover{
+    background-color: rgb(14, 114, 36);
+    border: 3px solid black;
+    font-size: large;
+    height: 80px;
+    width: 80px;
+}
